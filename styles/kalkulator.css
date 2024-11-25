@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  .calculator-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  body {
+    background-image: linear-gradient(145deg, #006bff 0%, #6439ff 100%);
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.calculator-container {
+  margin: 40px auto 0 auto;
+  background-color: #F9F9F9;
+  padding: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chart-container,
+.history-container {
+  margin-top: 16px;
+}
+
+.history-container ul {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.result-container {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.input-container input {
+  padding: 8px;
+  border: px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .menghitung {
+    margin-top: -210px;
+    padding: 15px;
+  }
+}
