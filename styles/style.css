@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primaryTextColor: #232e35; /* Untuk title atau judul */
+  --primaryTextColor: #00668c; /* Untuk title atau judul */
   --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
 
   --borderColor: #f1f1f1;
@@ -477,7 +477,7 @@ nav ul li a {
 /* Footer Section */
 footer {
   padding: 4rem 0;
-  background: var(--secondaryBackgroundColor);
+  background: #00668c;
   text-align: center;
 }
 
