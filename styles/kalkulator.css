@@ -4,7 +4,7 @@
     margin: 0 auto;
   }
   body {
-    background-image: linear-gradient(145deg, #006bff 0%, #6439ff 100%);
+    background-image: linear-gradient(145deg, #F9F9F9 0%, #F9F9F9 100%);
     padding: 4px;
     display: flex;
     flex-direction: column;
